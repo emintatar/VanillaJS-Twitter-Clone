@@ -1,0 +1,22 @@
+.title {
+  text-align: center;
+}
+
+.tweetForm {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.tweetList {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tweet {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}

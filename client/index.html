@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <title>Twitter Clone</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Twitter Clone</h1>
+    </header>
+    <main>
+        <form class="tweetForm">
+            <!-- Name -->
+            <label for="name">İsminiz</label>
+            <input type="text" id="name" name="name" class="u-full-width">
+
+            <!-- Content -->
+            <label for="content">Ne düşünüyorsunuz?</label>
+            <textarea id="content" name="content" class="u-full-width"></textarea>
+
+            <button class="button-primary">Gönder</button>
+        </form>
+        <div class="tweetList">
+
+        </div>
+    </main>
+</body>
+<script src="client.js"></script>
+
+</html>
